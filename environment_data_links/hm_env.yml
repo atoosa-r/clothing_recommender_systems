@@ -200,16 +200,24 @@ dependencies:
   - zstd=1.5.6=hb46c0d2_0
   - pip:
       - click==8.1.7
+      - click-plugins==1.1.1
+      - cligj==0.7.2
       - cython==3.0.10
+      - fiona==1.9.6
       - gensim==4.3.2
+      - geopandas==0.13.2
       - jupyter-summarytools==0.2.3
       - klib==1.1.2
       - nltk==3.8.1
+      - opencv-python==4.10.0.84
       - plotly==5.22.0
+      - pyproj==3.5.0
       - regex==2024.5.15
       - screeninfo==0.8.1
+      - shapely==2.0.4
       - smart-open==7.0.4
       - tenacity==8.4.1
       - tqdm==4.66.4
+      - wordcloud==1.9.3
       - wrapt==1.16.0
 prefix: /opt/anaconda3/envs/hm_env
