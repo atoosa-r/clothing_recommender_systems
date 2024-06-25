@@ -35,4 +35,5 @@ To replicate the project environment, follow these steps:
 
 ### **Dataset**
 **Links to Datasets:** The datasets required for this project are stored in publicly accessible cloud storage. Please refer to the data-links.md file in the environment_data_links/ folder for the links and instructions to download the datasets.
-*Note:Due to the large size of the images, they have not yet been uploaded to this repository.*
+
+*Note: Due to the large size of the images, they have not yet been uploaded to this repository.*
