@@ -13,18 +13,18 @@ To address this issue, we have developed a personalized recommendation system. B
 The implementation of this personalized recommendation system is expected to significantly enhance the shopping experience, leading to increased customer satisfaction and engagement. Additionally, by providing better-suited recommendations, the system can help reduce the number of returns, contributing to more sustainable shopping practices.
 
 ### **Process Overview**
-•	Data processing steps: Cleaning and preprocessing the data, handling null values, and dropping redundant columns.
-•	Modeling approaches: Evaluating various modeling and predictive methods to build the recommendation system.
-•	Prototyping directions: Developing prototypes to test and refine the recommendation system.
+- **Data processing steps:** Cleaning and preprocessing the data, handling null values, and dropping redundant columns.
+- **Modeling approaches:** Evaluating various modeling and predictive methods to build the recommendation system.
+- **Prototyping directions:** Developing prototypes to test and refine the recommendation system.
 
 ### **Organization**
 **Repository Structure:**
-•	environment_data_links/: Stores the hm_env.yml and data-links.md files for setting up the environment and accessing data.
-•	notebooks/: Includes all final Jupyter notebooks used in the project.
-•	presentations/: Contains presentations summarizing the project.
-•	.gitignore: Lists files and folders to be ignored by Git version control.
-•	environment_data_links/: Stores the hm_env.yml and data-links.md files for setting up the environment and accessing data.
-•	README.md: Project landing page (this file).
+- `environment_data_links/`: Stores the hm_env.yml and data-links.md files for setting up the environment and accessing data.
+- `notebooks/`: Includes all final Jupyter notebooks used in the project.
+- `presentations/`: Contains presentations summarizing the project.
+- `.gitignore`: Lists files and folders to be ignored by Git version control.
+- `environment_data_links/`: Stores the hm_env.yml and data-links.md files for setting up the environment and accessing data.
+- `README.md`: Project landing page (this file).
 
 ### **Environment Setup**
 To replicate the project environment, follow these steps:
@@ -34,5 +34,5 @@ To replicate the project environment, follow these steps:
 *conda activate hm_env*
 
 ### **Dataset**
-Links to Datasets: The datasets required for this project are stored in publicly accessible cloud storage. Please refer to the data-links.md file in the environment_data_links/ folder for the links and instructions to download the datasets.
+**Links to Datasets:** The datasets required for this project are stored in publicly accessible cloud storage. Please refer to the data-links.md file in the environment_data_links/ folder for the links and instructions to download the datasets.
 *Note:Due to the large size of the images, they have not yet been uploaded to this repository.*
