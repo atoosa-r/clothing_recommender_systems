@@ -45,6 +45,7 @@ To replicate the project environment, follow these steps:
     conda env create -f path_to_downloaded_hm_env.yml
     conda activate hm_env
     ```
+**Note:** The BERT model notebooks were developed and optimized for Google Colab. For the best performance and compatibility, it is recommended to run those on Google Colab rather than Jupyter Notebooks or VS Code.
 
 ## Dataset
 
