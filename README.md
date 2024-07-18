@@ -42,7 +42,7 @@ The implementation of these personalized recommender systems is expected to sign
 - **.gitignore**: Lists files and folders to be ignored by Git version control.
 - **README.md**: Project landing page (this file).
 
-## Dataset
+## Datasets
 
 - **Links to Datasets and Images:** The datasets and images required for this project are stored in publicly accessible cloud storage. Refer to the data-links.md file in the environment_data_links/ folder for the links and instructions to download the datasets.
 
