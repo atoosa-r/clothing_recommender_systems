@@ -42,6 +42,10 @@ The implementation of these personalized recommender systems is expected to sign
 - **.gitignore**: Lists files and folders to be ignored by Git version control.
 - **README.md**: Project landing page (this file).
 
+## Dataset
+
+- **Links to Datasets and Images:** The datasets and images required for this project are stored in publicly accessible cloud storage. Refer to the data-links.md file in the environment_data_links/ folder for the links and instructions to download the datasets.
+
 ## Environment Setup
 
 To replicate the project environment, follow these steps:
@@ -53,7 +57,3 @@ To replicate the project environment, follow these steps:
     conda activate hm_env
     ```
 **Note:** The BERT model notebooks were developed and optimized for Google Colab. For the best performance and compatibility, it is recommended to run those on Google Colab rather than Jupyter Notebooks or VS Code.
-
-## Dataset
-
-- **Links to Datasets and Images:** The datasets and images required for this project are stored in publicly accessible cloud storage. Refer to the data-links.md file in the environment_data_links/ folder for the links and instructions to download the datasets.
