@@ -21,9 +21,9 @@ The implementation of these personalized recommender systems is expected to sign
 
 **Model Development**
 - **Recommender Systems Creation:** Develop and iterate on three distinct recommender systems, each leveraging different algorithms and techniques:
-  1. **User-Item Matrix Recommender System:** Utilize collaborative filtering to recommend products based on user interaction history.
-  2. **Matrix Factorization Recommender System:** Implement matrix factorization techniques to uncover latent factors and improve recommendation accuracy.
-  3. **BERT-Based Recommender System:** Apply BERT for contextual understanding and semantic analysis of item descriptions, enhancing recommendation relevance.
+  - **User-Item Matrix Recommender System:** Utilize collaborative filtering to recommend products based on user interaction history.
+  - **Matrix Factorization Recommender System:** Implement matrix factorization techniques to uncover latent factors and improve recommendation accuracy.
+  - **BERT-Based Recommender System:** Apply BERT for contextual understanding and semantic analysis of item descriptions, enhancing recommendation relevance.
 
 **Evaluation and Prototyping**
 - **Prototyping:** Develop initial prototypes for each recommender system to facilitate early-stage testing and iterative refinement. These prototypes help in identifying potential issues and areas for improvement.
