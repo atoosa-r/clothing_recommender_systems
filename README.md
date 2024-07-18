@@ -31,7 +31,7 @@ The implementation of these personalized recommender systems is expected to sign
     - **Matrix Factorization Recommender System:** Conduct comprehensive evaluations
     - **User-Item Matrix and BERT Recommender Systems:** Perform qualitative assessments by analyzing individual recommendations.
 
--**Iterative Refinement:** Continuously refine the models based on evaluation results and user feedback.
+- **Iterative Refinement:** Continuously refine the models based on evaluation results and user feedback.
 
 ## Organization
 
