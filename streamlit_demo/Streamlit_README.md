@@ -14,7 +14,7 @@ This application serves as a small portion of the larger project, illustrating t
 
 ## Associated Files
 
-The Streamlit demo relies on the following files, which are available from this [Google Drive Link](https://drive.google.com/drive/u/1/folders/1wjLAelGkrZarN97FisOU3Kt5l-8QuFM7):
+The Streamlit demo relies on the following files, which are all available in this [Google Drive Folder](https://drive.google.com/drive/u/1/folders/1wjLAelGkrZarN97FisOU3Kt5l-8QuFM7):
 
 - `BERT_model/` (folder containing the BERT model)
 - `article_embeddings.npy`: Contains the embeddings of the articles used for recommendations.
