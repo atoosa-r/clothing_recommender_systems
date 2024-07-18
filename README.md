@@ -1,39 +1,51 @@
-# Enhancing Shopping Experience through Data-Driven Product Recommendations
+# Enhancing Clothing Recommendations through Data-Driven Recommender Systems
 
-This repository aims to develop a robust recommendation system for H&M Group by analyzing transaction data, customer information, and article details. H&M Group operates globally with 53 online markets and around 4850 stores. By leveraging data science techniques, we strive to uncover insights for effective product recommendations, enhance the shopping experience, reduce returns, and support sustainability. Our goal is to improve customer satisfaction and engagement through personalized recommendations.
+This repository documents the development of robust recommender systems by analyzing H&M Group transactional data, customer information, and article details. By leveraging data science techniques, we strive to uncover insights for effective product recommendations, enhance the shopping experience, reduce returns, and support sustainability. Our goal is to improve customer satisfaction and engagement through personalized recommendations.
 
 ## Executive Summary
 
 ### Problem
-Customers often face difficulty finding suitable fashion items that match their preferences and needs, leading to a suboptimal shopping experience.
+Customers often face difficulty finding suitable fashion items that match their preferences and needs, leading to a suboptimal shopping experience. Additionally, customers are not always exposed to the full catalog of available items, limiting their choices and potentially missing out on products that might interest them.
 
 ### Solution
-To address this issue, we have developed a personalized recommendation system. By analyzing customer preferences and purchasing patterns, the system can provide more accurate and tailored product recommendations.
+To address these issues, we have developed personalized recommender systems. By analyzing customer preferences and purchasing patterns, the systems provide more accurate and tailored product recommendations. Furthermore, the systems increase exposure to a broader variety of items, helping customers discover products they might not have found otherwise.
 
 ### Impact
-The implementation of this personalized recommendation system is expected to significantly enhance the shopping experience, leading to increased customer satisfaction and engagement. Additionally, by providing better-suited recommendations, the system can help reduce the number of returns, contributing to more sustainable shopping practices.
+The implementation of these personalized recommender systems is expected to significantly enhance the shopping experience, leading to increased customer satisfaction and engagement. By providing better-suited recommendations and exposing customers to a wider range of products, the systems can help reduce the number of returns and contribute to more sustainable shopping practices.
 
 ## Process Overview
+**Data Exploration and Preprocessing**
+- **Data Exploration:** Conduct a comprehensive analysis of the dataset to identify trends, correlations, and key features that influence recommendations.
+- **Data Cleaning:** Address missing values, remove redundant columns, and standardize data formats to ensure consistency and accuracy.
+- **Feature Engineering:** Utilize Natural Language Processing (NLP) techniques to enrich item descriptions, extracting meaningful features for better model performance.
 
-- **Data processing steps**: Cleaning and preprocessing the data, handling null values, and dropping redundant columns.
-- **Modeling approaches**: Evaluating various modeling and predictive methods to build the recommendation system.
-- **Prototyping directions**: Developing prototypes to test and refine the recommendation system.
+**Model Development**
+- **Recommender Systems Creation:** Develop and iterate on three distinct recommender systems, each leveraging different algorithms and techniques:
+  - **User-Item Matrix Recommender System:** Utilize collaborative filtering to recommend products based on user interaction history.
+  - **Matrix Factorization Recommender System:** Implement matrix factorization techniques to uncover latent factors and improve recommendation accuracy.
+  - **BERT-Based Recommender System:** Apply BERT for contextual understanding and semantic analysis of item descriptions, enhancing recommendation relevance.
 
-## Models Implemented
+**Evaluation and Prototyping**
+- **Prototyping:** Develop initial prototypes for each recommender system to facilitate early-stage testing and iterative refinement. These prototypes help in identifying potential issues and areas for improvement.
+- **System Evaluation:**
+    - **Matrix Factorization Recommender System:** Conduct comprehensive evaluations
+    - **User-Item Matrix and BERT Recommender Systems:** Perform qualitative assessments by analyzing individual recommendations.
 
-1. **User-Item Matrix Recommender System**
-2. **Matrix Factorization Recommender System**
-3. **BERT Recommender System**
+- **Iterative Refinement:** Continuously refine the models based on evaluation results and user feedback.
 
 ## Organization
 
 ### Repository Structure
 
-- **environment_data_links/**: Stores the `hm_env.yml` and `data-links.md` files for setting up the environment and accessing data.
+- **environment_data_links/**: Stores the `hm_env.yml` for setting up the environment and `data-links.md` includes instructions for accessing the data files and images.
 - **notebooks/**: Includes all final Jupyter notebooks used in the project.
 - **presentations/**: Contains presentations summarizing the project.
 - **.gitignore**: Lists files and folders to be ignored by Git version control.
 - **README.md**: Project landing page (this file).
+
+## Datasets
+
+- **Links to Datasets and Images:** The datasets and images required for this project are stored in publicly accessible cloud storage. Refer to the data-links.md file in the environment_data_links/ folder for the links and instructions to download the datasets.
 
 ## Environment Setup
 
@@ -45,9 +57,4 @@ To replicate the project environment, follow these steps:
     conda env create -f path_to_downloaded_hm_env.yml
     conda activate hm_env
     ```
-
-## Dataset
-
-- **Links to Datasets**: The datasets required for this project are stored in publicly accessible cloud storage. Please refer to the `data-links.md` file in the `environment_data_links/` folder for the links and instructions to download the datasets.
-
-Note: Due to the large size of the images, they have not yet been uploaded to this repository.
+**Note:** The BERT model notebooks were developed and optimized for Google Colab. For the best performance and compatibility, it is recommended to run those on Google Colab rather than Jupyter Notebooks or VS Code.
