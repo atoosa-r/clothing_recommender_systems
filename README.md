@@ -1,7 +1,7 @@
 # Enhancing Clothing Recommendations through Data-Driven Recommender Systems
 
 This repository documents the development of robust recommender systems by analyzing H&M Group transactional data, customer information, and article details. By leveraging data science techniques, we strive to uncover insights for effective product recommendations, enhance the shopping experience, reduce returns, and support sustainability. Our goal is to improve customer satisfaction and engagement through personalized recommendations.
- 
+  
 ## Executive Summary
 
 ### Problem
